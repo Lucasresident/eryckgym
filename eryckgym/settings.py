@@ -38,12 +38,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'treinos',
+    'corsheaders',
     'rest_framework',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -78,10 +80,10 @@ WSGI_APPLICATION = 'eryckgym.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'eryckgym',
+        'NAME': 'eryckgym_287o',
         'USER': 'eryckgym_user',
-        'PASSWORD': 'r2R0rPxFM6AfG8Hv6NPw7oaMMWGb5RxI',
-        'HOST': 'dpg-co4ta8sf7o1s73910rhg-a.oregon-postgres.render.com',
+        'PASSWORD': 'WJBJ1h3bAVUS6ss5FqJN9y5Suh8SSxIM',
+        'HOST': 'dpg-co7dph4f7o1s73clr3v0-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
