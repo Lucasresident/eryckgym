@@ -78,7 +78,11 @@ WSGI_APPLICATION = 'eryckgym.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'eryckgym',
+        'USER': 'eryckgym_user',
+        'PASSWORD': 'r2R0rPxFM6AfG8Hv6NPw7oaMMWGb5RxI',
+        'HOST': 'dpg-co4ta8sf7o1s73910rhg-a.oregon-postgres.render.com',
+        'PORT': '5432',
     }
 }
 
