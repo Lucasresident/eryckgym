@@ -1,6 +1,6 @@
 FROM python:3.12.2-bullseye
 
-WORKDIR /app
+WORKDIR /home/app
 
 COPY ./requirements.txt .
 
