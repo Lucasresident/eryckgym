@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'eryckgym_287o',
         'USER': 'eryckgym_user',
-        'PASSWORD': config('DB_PASSWOD'),
+        'PASSWORD': config('DB_PASSWOD', default='WJBJ1h3bAVUS6ss5FqJN9y5Suh8SSxIM'),
         'HOST': 'dpg-co7dph4f7o1s73clr3v0-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
